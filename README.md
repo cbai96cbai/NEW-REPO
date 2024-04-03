@@ -1,5 +1,8 @@
 # Projects
 
+## sample company project - 
+Real survey data from a telecom company - detailed EDA and visualizations
+
 ## WebMd 
 
 ### Executive Summary 
