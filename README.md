@@ -1,5 +1,6 @@
-# WebMD summary 
+# Projects
 
+## WebMd 
 Executive Summary 
 WebMD is an online publisher of health and wellness news and information. The site contains an extensive volume of drug-related information and it is one of the most popular healthcare websites in the U.S. Scraped from the WebMD website. our data includes around 0.36 million unique reviews that were updated until March 2020. The dataset also contains user evaluations of individual medications, as well as information on linked ailments, side effects, age, sex, and overall patient satisfaction ratings. In the project, we have utilized the NLTK packages and various types of classifiers such as decision tree, random forest and naive bayes to achieve the desired results.
 
