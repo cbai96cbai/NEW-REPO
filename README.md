@@ -25,3 +25,17 @@ Indeed is a vertical search engine specializing in providing job information. It
 Our goal is to use the results of data visualization to clearly and directly show job seekers the various skills and qualities required by each job post, and how those skills and traits are correlated to each position. The result can effectively help the job seekers know whether they have enough ability to qualify for this position while helping users choose the most appropriate target position.
 When the candidates do not have enough ability for their target position, our output provides a straightforward demonstration of which skillset or quality they lack. And based on the diverse combinations of skills and qualities, job seekers can easily prioritize the qualities or skill sets they need to improve or acquire.
 To achieve this goal, we have to gather detailed information about the job descriptions of all open positions related to the users’ target search. Then we use text analytics techniques including feature engineering and linear regression to process the job description contents and to extract meaningful keywords from all of these descriptions. Following that, we use logistic regression to calculate the coefficient of each skill or quality. Lastly and most importantly, we import visual tools to generate suitable diagrams to display the rank of different skills or qualities in accordance with each job seeker’s target position
+
+
+### sample claims kaggle 
+Drawing from Kaggle's repository of insurance claims data, this project embarked on an extensive journey of data refinement and analysis. Through rigorous feature engineering techniques, including data imputation, scaling for numerical variables, and categorical data encoding, the dataset underwent thorough preparation to ensure its suitability for subsequent modeling endeavors.
+
+Feature selection methodologies, such as variance inflation factor (VIF) analysis and regression statistics, were meticulously applied to discern pivotal predictors and effectively reduce dimensionality. Recognizing the presence of non-linear relationships, polynomial transformations for independent variables and logarithmic transformations for the target variable were implemented prior to modeling, particularly leveraging the Ridge regression approach.
+
+The modeling phase witnessed the deployment of robust nonparametric algorithms, namely the Random Forest Regressor and Gradient Boosting Regressor, with hyperparameter tuning facilitated via Grid Search methodology to optimize predictive accuracy and generalizability. Additionally, logistic regression facilitated the categorization of claims into 'high' and 'low' cost brackets, providing further insights into cost segmentation.
+
+Post-modeling, a robust statistical validation framework was instituted. Hypothesis testing, encompassing assessments of claim cost disparities among employee types and gender segments, was conducted to unveil significant associations. Notably, Fisher's Exact test provided valuable insights into categorical variables' impact on claim costs, revealing noteworthy associations.
+
+Lastly, time series analysis techniques, including Autoregressive Integrated Moving Average (ARIMA) and Seasonal ARIMA (SARIMA), were employed to uncover temporal patterns in claim cases. Complementarily, survival analysis techniques were utilized to assess claims reporting efficiency and identify influential factors impacting the process.
+
+
