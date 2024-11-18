@@ -27,7 +27,7 @@ When the candidates do not have enough ability for their target position, our ou
 To achieve this goal, we have to gather detailed information about the job descriptions of all open positions related to the users’ target search. Then we use text analytics techniques including feature engineering and linear regression to process the job description contents and to extract meaningful keywords from all of these descriptions. Following that, we use logistic regression to calculate the coefficient of each skill or quality. Lastly and most importantly, we import visual tools to generate suitable diagrams to display the rank of different skills or qualities in accordance with each job seeker’s target position
 
 
-### sample claims kaggle 
+## sample claims kaggle 
 Drawing from Kaggle's repository of insurance claims data, this project embarked on an extensive journey of data refinement and analysis. Through rigorous feature engineering techniques, including data imputation, scaling for numerical variables, and categorical data encoding, the dataset underwent thorough preparation to ensure its suitability for subsequent modeling endeavors.
 
 Feature selection methodologies, such as variance inflation factor (VIF) analysis and regression statistics, were meticulously applied to discern pivotal predictors and effectively reduce dimensionality. Recognizing the presence of non-linear relationships, polynomial transformations for independent variables and logarithmic transformations for the target variable were implemented prior to modeling, particularly leveraging the Ridge regression approach.
@@ -38,4 +38,5 @@ Post-modeling, a robust statistical validation framework was instituted. Hypothe
 
 Lastly, time series analysis techniques, including Autoregressive Integrated Moving Average (ARIMA) and Seasonal ARIMA (SARIMA), were employed to uncover temporal patterns in claim cases. Complementarily, survival analysis techniques were utilized to assess claims reporting efficiency and identify influential factors impacting the process.
 
-
+## sample company analytics and visualizations 
+Real data from sample company, EDA, analytics, visualizations, and machine learning for strategetic business reccomendations and optimizations 
